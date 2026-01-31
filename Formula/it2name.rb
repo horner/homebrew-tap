@@ -7,8 +7,9 @@ class It2name < Formula
 
   # Dependencies - Homebrew will install these automatically
   depends_on "chafa"
+  depends_on "figlet"
   depends_on "ghostscript"
-  depends_on "imagemagick"
+  depends_on "imagemagick-full"
 
   def install
     bin.install "it2name"
